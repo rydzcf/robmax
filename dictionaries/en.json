@@ -1,0 +1,23 @@
+{
+  "hello": "Hello World",
+  "welcome": "Welcome to my app",
+  "menu": {
+    "home" : "About Us",
+    "cnc" : "Service cnc",
+    "glass" : "Glass",
+    "mask" : "Mask",
+    "contact" : "Contakt"
+  },
+  "footer": {
+    "address" : "Addres data",
+    "contact" : "Contact data",
+    "days": "mo-fr",
+    "slogan": "glass",
+    "rights": "All right reserved",
+    "phone" : "Phone"
+  },
+    "hero": {
+    "title": "Robmax",
+    "slogan": "Obróbka szkła, usługi cnc, maskownice"
+  }
+}
