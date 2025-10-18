@@ -1,23 +1,63 @@
 {
-  "hello": "Hello World",
-  "welcome": "Welcome to my app",
   "menu": {
     "home" : "About Us",
-    "cnc" : "Service cnc",
+    "cnc" : "CNC Services",
     "glass" : "Glass",
-    "mask" : "Mask",
-    "contact" : "Contakt"
+    "mask" : "Covers",
+    "contact" : "Contact"
   },
   "footer": {
-    "address" : "Addres data",
-    "contact" : "Contact data",
-    "days": "mo-fr",
-    "slogan": "glass",
-    "rights": "All right reserved",
-    "phone" : "Phone"
+    "address" : "Address Information",
+    "contact" : "Contact Information",
+    "days": "Mon-Fri",
+    "slogan": "Glass processing, CNC services, covers",
+    "rights": "All rights reserved",
+    "phone": "Phone"
   },
-    "hero": {
+  "hero": {
     "title": "Robmax",
-    "slogan": "Obróbka szkła, usługi cnc, maskownice"
+    "subtitle": "Glass processing, CNC services, covers",
+    "title2": "Robmax",
+    "subtitle2": "Glass processing, CNC services, covers",
+    "title3": "Robmax",
+    "subtitle3": "Glass processing, CNC services, covers"
+  },
+  "cta" : {
+    "title": "call us",
+    "subtitle": "right now",
+    "fb": "follow us on Facebook"
+  },
+  "cnc": {
+    "title": "CNC Machining",
+    "description": "Professional services...",
+    "buttonText": "Learn more",
+    "buttonLink": "/en/cnc"
+  },
+  "glass": {
+    "title": "Glass Cutting",
+    "description": "Precise cutting...",
+    "buttonText": "See offer",
+    "buttonLink": "/en/glass"
+  },
+  "aboutus1": "Robmax is a company with a long-standing tradition – we have been operating since 2005. The experience gained over the years has allowed us to specialize in glass and metal processing, and to build a strong position in the industry thanks to quality, punctuality, and an individual approach to each client.",
+  "aboutus2": "What do we do?",
+  "aboutuspoint": {
+    "1": "floor covers for delivery vehicles",
+    "2" : "CNC machining",
+    "3" : "side windows – single and double – for vans",
+    "4" : "windows for construction and agricultural machines",
+    "5" : "custom-sized glass tailored to individual needs",
+    "6" : "glass solutions for the furniture and architectural industries"
+  },
+  "aboutus3": "Thanks to our modern technological facilities and experienced staff, we handle both serial production and custom projects tailored to client requirements.",
+  "aboutus4": "Our technological facilities",
+  "aboutus5": "We are equipped with a press shop, laser cutter, four Mazak CNC milling machines, and a powder coating plant. This allows us to perform precise metal processing and carry out even the most complex projects. Investment in modern machinery ensures repeatability, accuracy, and high quality of our products.",
+  "whyus": "Why choose us?",
+  "whyuspoint": {
+    "1" : "20 years of experience in the market",
+    "2" : "flexibility and an individual approach to every project", 
+    "3" : "high quality confirmed by the trust of many partners",
+    "4" : "modern machinery park with Mazak CNC mills",
+    "5" : "continuous development – we constantly invest in technology and our team's skills"
   }
 }

@@ -64,7 +64,7 @@ export default function Hero({ lang }: HeroProps) {
   ];
 
   return (
-    <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative w-full h-screen flex items-center justify-center overflow-hidden overflow-x-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -99,7 +99,7 @@ export default function Hero({ lang }: HeroProps) {
           variants={itemVariants}
           className="text-xl sm:text-2xl md:text-3xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed"
         >
-          {dict.hero.slogan}
+          {dict.hero.subtitle}
         </motion.p>
 
         {/* Buttons */}

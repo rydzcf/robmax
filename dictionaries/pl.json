@@ -1,6 +1,4 @@
 {
-  "hello": "Witaj Świecie",
-  "welcome": "Witaj w mojej aplikacji",
   "menu": {
     "home" : "O nas",
     "cnc" : "Usługi cnc",
@@ -18,6 +16,49 @@
   },
   "hero": {
     "title": "Robmax",
-    "slogan": "Obróbka szkła, usługi cnc, maskownice"
+    "subtitle": "Obróbka cnc",
+    "title2": "Robmax",
+    "subtitle2": "Maskownice do podłóg pojazdów dostawczych",
+    "title3": "Robmax",
+    "subtitle3": "Szyby na wymiar"
+  },
+  "cta" : {
+    "title": "Zadzwoń",
+    "subtitle": "zapraszamy do kontatku",
+    "fb": "śledź nas na facebooku"
+  },
+  "cnc": {
+    "title": "Obróbka CNC",
+    "description": "Profesjonalne usługi...",
+    "buttonText": "Dowiedz się więcej",
+    "buttonLink": "/pl/cnc"
+  },
+  "glass": {
+    "title": "Cięcie szkła",
+    "description": "Precyzyjne cięcie...",
+    "buttonText": "Zobacz ofertę",
+    "buttonLink": "/pl/glass"
+  },
+  "aboutus1": "Robmax to firma z wieloletnią tradycją - działamy na rynku od 2005 roku. Zdobyte przez lata doświadczenie pozwoliło nam wyspecjalizować się w obróbce szkła oraz metali, a także zbudować silną pozycję w branży dzięki jakości, terminowości i indywidualnemu podejściu do każdego Klienta.",
+  "aboutus2": "Czym się zajmujemy?",
+  "aboutuspoint": {
+    "1": "maskownice do podłóg pojazdów dostawczych",
+    "2" : "obróbka CNC",
+    "3" : "szyby boczne - pojedyncze i zespolone - do busów",
+    "4" : "szyby do maszyn budowlanych i rolniczych",
+    "5" : "szyby na wymiar dostosowane do indywidualnych potrzeb",
+    "6" : "rozwiązania szklane dla branży meblarskiej i architektonicznej"
+  },
+  "aboutus3": "Dzięki nowoczesnemu zapleczu technologicznemu i doświadczonej kadrze realizujemy zarówno projekty seryjne, jak i nietypowe zamówienia, dopasowane do wymagań Klientów.",
+  "aboutus4": "Nasze zaplecze technologiczne",
+  "aboutus5": "Dysponujemy: tłocznią, laserem, czterema frezarkami CNC firmy Mazak, oraz lakiernią proszkową, pozwala nam to na precyzyjną obróbkę metalu i realizację nawet najbardziej skomplikowanych projektów. Inwestycja w nowoczesne maszyny gwarantuje powtarzalność, dokładność i wysoką jakość naszych produktów.",
+  "whyus": "Dlaczego my?",
+  "whyuspoint": {
+    "1" : "20 lat doświadczenia na rynku",
+    "2" : "elastyczność i indywidualne podejście do każdego projektu", 
+    "3" : "wysoka jakość wykonania potwierdzona zaufaniem wielu partnerów",
+    "4" : "nowoczesny park maszynowy z frezarkami CNC Mazak",
+    "5" : "nieustanny rozwój - stale inwestujemy w technologie i umiejętności naszego zespołu"
   }
+
 }

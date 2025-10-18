@@ -26,18 +26,24 @@ export default function Navbar({ lang }: NavbarProps) {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
+      if (!isOpen) {
+        setIsScrolled(window.scrollY > 20);
+      }
     };
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [isOpen]);
 
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
+      document.body.style.position = 'fixed';
+      document.body.style.width = '100%';
     } else {
       document.body.style.overflow = 'unset';
+      document.body.style.position = 'unset';
+      document.body.style.width = 'auto';
     }
   }, [isOpen]);
 
@@ -85,7 +91,7 @@ export default function Navbar({ lang }: NavbarProps) {
         animate="animate"
         transition={{ duration: 0.5, ease: 'easeOut' }}
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          isScrolled ? 'bg-[var(--background)] shadow-lg' : 'bg-[var(--background)]'
+          isScrolled ? 'bg-[var(--background)] shadow-lg' : 'bg-transparent'
         }`}
         style={{
           height: isScrolled ? '70px' : '90px',
@@ -177,75 +183,65 @@ export default function Navbar({ lang }: NavbarProps) {
 
       <AnimatePresence>
         {isOpen && (
-          <>
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.3 }}
-              className="fixed top-0 left-0 right-0 h-[90px] bg-[var(--background)] z-40 md:hidden"
-            />
-            
-            <motion.div
-              variants={mobileMenuVariants}
-              initial="closed"
-              animate="open"
-              exit="closed"
-              className="fixed inset-0 bg-[var(--accent)] z-30 md:hidden flex flex-col items-center justify-center pt-[90px]"
-            >
-              <nav className="flex flex-col items-center space-y-8 mb-12">
-                {menuItems.map((item, i) => (
-                  <motion.div
-                    key={i}
-                    custom={i}
-                    variants={menuItemVariants}
-                    initial="closed"
-                    animate="open"
-                    exit="closed"
+          <motion.div
+            variants={mobileMenuVariants}
+            initial="closed"
+            animate="open"
+            exit="closed"
+            className="fixed inset-0 bg-[var(--accent)] z-40 md:hidden flex flex-col items-center justify-center"
+          >
+            <nav className="flex flex-col items-center space-y-8 mb-12">
+              {menuItems.map((item, i) => (
+                <motion.div
+                  key={i}
+                  custom={i}
+                  variants={menuItemVariants}
+                  initial="closed"
+                  animate="open"
+                  exit="closed"
+                >
+                  <Link
+                    href={item.link}
+                    onClick={() => setIsOpen(false)}
+                    className="text-[var(--foreground)] text-3xl font-bold hover:scale-110 transition-transform duration-200"
                   >
-                    <Link
-                      href={item.link}
-                      onClick={() => setIsOpen(false)}
-                      className="text-[var(--foreground)] text-3xl font-bold hover:scale-110 transition-transform duration-200"
-                    >
-                      {item.label}
-                    </Link>
-                  </motion.div>
-                ))}
-              </nav>
+                    {item.label}
+                  </Link>
+                </motion.div>
+              ))}
+            </nav>
 
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.5, duration: 0.3 }}
-                className="flex items-center space-x-4"
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.5, duration: 0.3 }}
+              className="flex items-center space-x-4"
+            >
+              <Link
+                href="/pl"
+                onClick={() => setIsOpen(false)}
+                className={`text-2xl font-bold transition-colors duration-200 ${
+                  lang === 'pl'
+                    ? 'text-[var(--background)]'
+                    : 'text-[var(--foreground)] hover:text-[var(--background)]'
+                }`}
               >
-                <Link
-                  href="/pl"
-                  onClick={() => setIsOpen(false)}
-                  className={`text-2xl font-bold transition-colors duration-200 ${
-                    lang === 'pl'
-                      ? 'text-[var(--background)]'
-                      : 'text-[var(--foreground)] hover:text-[var(--background)]'
-                  }`}
-                >
-                  PL
-                </Link>
-                <span className="text-[var(--foreground)]/50 text-2xl">|</span>
-                <Link
-                  href="/en"
-                  onClick={() => setIsOpen(false)}
-                  className={`text-2xl font-bold transition-colors duration-200 ${
-                    lang === 'en'
-                      ? 'text-[var(--background)]'
-                      : 'text-[var(--foreground)] hover:text-[var(--background)]'
-                  }`}
-                >
-                  EN
-                </Link>
-              </motion.div>
+                PL
+              </Link>
+              <span className="text-[var(--foreground)]/50 text-2xl">|</span>
+              <Link
+                href="/en"
+                onClick={() => setIsOpen(false)}
+                className={`text-2xl font-bold transition-colors duration-200 ${
+                  lang === 'en'
+                    ? 'text-[var(--background)]'
+                    : 'text-[var(--foreground)] hover:text-[var(--background)]'
+                }`}
+              >
+                EN
+              </Link>
             </motion.div>
-          </>
+          </motion.div>
         )}
       </AnimatePresence>
     </>
