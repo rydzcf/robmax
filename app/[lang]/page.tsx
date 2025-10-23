@@ -22,19 +22,19 @@ export default async function Page({
   const Slides: Slide[] = [
     {
       id: 1,
-      image: '/hero.jpg',
+      image: '/hero1.jpeg',
       title: dict.hero.title,
       subtitle: dict.hero.subtitle,
     },
     {
       id: 2,
-      image: '/hero.jpg',
+      image: '/hero2.jpeg',
        title: dict.hero.title2,
       subtitle: dict.hero.subtitle2,
     },
     {
       id: 3,
-      image: '/hero.jpg',
+      image: '/hero3.jpeg',
        title: dict.hero.title3,
       subtitle: dict.hero.subtitle3,
     },
@@ -56,26 +56,26 @@ export default async function Page({
   <Card
     title={dict.aboutuspoint[1]}
     description={dict.aboutuspoint['1.1']}
-    imageSrc="/cnc.jpg"
+    imageSrc="/hero3.jpeg"
     imageAlt="CNC"
-    link="/pl/cnc"
+    link="/pl/mask"
     buttonText="Dowiedz się więcej"
     index={0}
   />
   <Card
     title={dict.aboutuspoint[2]}
     description={dict.aboutuspoint['2.1']}
-    imageSrc="/glass.jpg"
-    imageAlt="Glass"
-    link="/pl/glass"
+    imageSrc="/hero1.jpeg"
+    imageAlt="cnc"
+    link="/pl/cnc"
     buttonText="Zobacz ofertę"
     index={1}
   />
   <Card
     title={dict.aboutuspoint[3]}
     description={dict.aboutuspoint['3.1']}
-    imageSrc="/glass.jpg"
-    imageAlt="Glass"
+    imageSrc="/hero2.jpeg"
+    imageAlt="glass"
     link="/pl/glass"
     buttonText="Zobacz ofertę"
     index={2}
@@ -88,7 +88,7 @@ export default async function Page({
           lang={lang}
           imagePosition='right'
           sectionKey='cnc'
-          imageSrc='/hero.jpg'
+          imageSrc='/hero1.jpeg'
           imageAlt='foto cnc'
           />  
         
@@ -104,7 +104,7 @@ export default async function Page({
           lang={lang}
           imagePosition='left'
           sectionKey='glass'
-          imageSrc='/hero.jpg'
+          imageSrc='/hero2.jpeg'
           imageAlt='foto glass'
           />  
     </>

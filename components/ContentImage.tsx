@@ -10,6 +10,7 @@ interface ContentImageProps {
   imageSrc: string;
   imageAlt: string;
   sectionKey: string;
+  button?: boolean;
 }
 
 export default function ContentImage({
@@ -18,6 +19,7 @@ export default function ContentImage({
   imageSrc,
   imageAlt,
   sectionKey,
+  button = true,
 }: ContentImageProps) {
   const dict = getDictionary(lang) as any;
   const section = dict[sectionKey];
@@ -113,7 +115,7 @@ export default function ContentImage({
               </p>
             </motion.div>
 
-            {section.buttonText && section.buttonLink && (
+            {section.buttonText && section.buttonLink && button && (
               <motion.div variants={itemVariants}>
                 <motion.div
                   variants={buttonVariants}

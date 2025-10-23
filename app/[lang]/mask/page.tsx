@@ -20,8 +20,11 @@ const page = async ({params} : {params : Promise<{lang: string}>}) => {
   const dict = getDictionary(lang)
   return (
       <>
-    <div className='pt-[90px] max-w-7xl mx-auto text-3xl'>{dict.menu.mask}
-     <div className='text-base mb-16'>
+    <div className= "max-w-7xl mx-auto">
+      <div className='pt-[90px] max-w-7xl mx-auto text-3xl font-semibold'>
+        {dict.menu.mask}
+      </div>
+     <div className='mb-16'>
      <div className='my-10'>{dict.mask.about}</div>
        <CardList data={data} lang={lang}/>
       </div> 
