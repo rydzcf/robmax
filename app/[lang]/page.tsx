@@ -51,10 +51,11 @@ export default async function Page({
     <div className="px-3 pb-32 pt-20 mx-auto max-w-7xl">
       {dict.aboutus1}
     </div>
+    <div className='max-w-7xl mx-auto text-3xl font-semibold py-4'>{dict.aboutus2}</div>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-7xl pt-20 pb-32 px-3">
   <Card
-    title="Obróbka CNC"
-    description="Precyzyjna obróbka materiałów"
+    title={dict.aboutuspoint[1]}
+    description={dict.aboutuspoint['1.1']}
     imageSrc="/cnc.jpg"
     imageAlt="CNC"
     link="/pl/cnc"
@@ -62,8 +63,8 @@ export default async function Page({
     index={0}
   />
   <Card
-    title="Cięcie szkła"
-    description="Profesjonalne cięcie szkła"
+    title={dict.aboutuspoint[2]}
+    description={dict.aboutuspoint['2.1']}
     imageSrc="/glass.jpg"
     imageAlt="Glass"
     link="/pl/glass"
@@ -71,8 +72,8 @@ export default async function Page({
     index={1}
   />
   <Card
-    title="Maskownice"
-    description="Profesjonalne cięcie szkła"
+    title={dict.aboutuspoint[3]}
+    description={dict.aboutuspoint['3.1']}
     imageSrc="/glass.jpg"
     imageAlt="Glass"
     link="/pl/glass"
@@ -91,7 +92,7 @@ export default async function Page({
           imageAlt='foto cnc'
           />  
         
-      <div className="text-2xl font-semibold py-4">{dict.whyus}</div>
+      <div className="text-3xl font-semibold py-4">{dict.whyus}</div>
       {Object.values(dict.aboutuspoint).map((item, index) => (
   <div key={index} className='flex items-center gap-2 mb-2'>
     <Image src="/b.svg" width={12} height={12} alt="point"/>
@@ -99,6 +100,13 @@ export default async function Page({
     </div>
 ))}
     </div>
+      <ContentImage 
+          lang={lang}
+          imagePosition='left'
+          sectionKey='glass'
+          imageSrc='/hero.jpg'
+          imageAlt='foto glass'
+          />  
     </>
   )
 }

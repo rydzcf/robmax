@@ -42,12 +42,12 @@
   "aboutus1": "Robmax is a company with a long-standing tradition – we have been operating since 2005. The experience gained over the years has allowed us to specialize in glass and metal processing, and to build a strong position in the industry thanks to quality, punctuality, and an individual approach to each client.",
   "aboutus2": "What do we do?",
   "aboutuspoint": {
-    "1": "floor covers for delivery vehicles",
-    "2" : "CNC machining",
-    "3" : "side windows – single and double – for vans",
-    "4" : "windows for construction and agricultural machines",
-    "5" : "custom-sized glass tailored to individual needs",
-    "6" : "glass solutions for the furniture and architectural industries"
+    "1": "Maskownice",
+    "1.1": "Maskownice do podłóg pojazdów dostawczych",
+    "2" : "Obróbka CNC",
+    "2.1": "Obróbka stali na maszyncha cnc",
+    "3" : "Szyby",
+    "3.1": "Szyby boczne - pojedyncze i zespolone - do busów i maszyn rolniczych"
   },
   "aboutus3": "Thanks to our modern technological facilities and experienced staff, we handle both serial production and custom projects tailored to client requirements.",
   "aboutus4": "Our technological facilities",
@@ -59,5 +59,15 @@
     "3" : "high quality confirmed by the trust of many partners",
     "4" : "modern machinery park with Mazak CNC mills",
     "5" : "continuous development – we constantly invest in technology and our team's skills"
+  },
+   "mask" : {
+    "typ" : "typ",
+    "wysokość": "wysokość",
+    "szerokość": "szerokość",
+    "elem_wypukly": "element wypukły",
+    "otwor": "otwór",
+    "pasuje_do": "pasuje do",
+     "about": "Maskownice pod uchwyt pasa transportowego do podłogi, wykorzystywane w zabudowach aut dostawczych. Wykonane są ze stali czarnej, cięte laserowo, tłoczone, oraz pomalowane proszkowo co gwarantuje wysoką jakość produktu. W naszej ofercie znajduje się 8 standardowych modeli, pasujących do podłogi o grubości od 9mm do 12mm, ale mamy możliwość wykonania indywidualnych wzorów."
+
   }
 }
