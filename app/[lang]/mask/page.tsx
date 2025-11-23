@@ -21,9 +21,9 @@ const page = async ({params} : {params : Promise<{lang: string}>}) => {
   return (
       <>
     <div className= "max-w-7xl mx-auto">
-      <div className='pt-[90px] max-w-7xl mx-auto text-3xl font-semibold'>
+      <h1 className='pt-[90px] mx-auto text-3xl font-semibold'>
         {dict.menu.mask}
-      </div>
+      </h1>
      <div className='mb-16'>
      <div className='my-10'>{dict.mask.about}</div>
        <CardList data={data} lang={lang}/>

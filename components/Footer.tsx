@@ -64,7 +64,7 @@ const dict = getDictionary(lang);
           </motion.div>
 
           <motion.div variants={itemVariants}>
-            <h3 className="text-lg font-bold mb-4">{dict.footer.address}</h3>
+            <h6 className="text-lg font-bold mb-4">{dict.footer.address}</h6>
             <address className="not-italic text-sm space-y-2 opacity-90" id="contact">
               <p>Straszków 115</p>
               <p>62-604 Straszków</p>
@@ -73,7 +73,7 @@ const dict = getDictionary(lang);
           </motion.div>
 
           <motion.div variants={itemVariants}>
-            <h3 className="text-lg font-bold mb-4">{dict.footer.contact}</h3>
+            <h6 className="text-lg font-bold mb-4">{dict.footer.contact}</h6>
             <div className="text-sm space-y-3 opacity-90">
               <p>
                 <span className="block mb-1 opacity-70">{dict.footer.phone}:</span>

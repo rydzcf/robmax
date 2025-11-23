@@ -6,7 +6,10 @@ const page = async ({params} : {params : Promise<{lang: string}>}) => {
    const { lang } = await params
   const dict = getDictionary(lang)
     return (
-    <div className='pt-[90px] max-w-7xl mx-auto text-3xl font-semibold'>{dict.menu.glass}
+    <div className='pt-[90px] max-w-7xl mx-auto font-semibold'>
+      <h1>
+        {dict.menu.glass}
+        </h1>
      <ContentImage 
         lang={lang}
         imagePosition='right'

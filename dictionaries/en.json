@@ -30,12 +30,14 @@
   "cnc": {
     "title": "CNC Machining",
     "description": "Professional services...",
+    "descriptionLong": "Rozszerzony opis o cnc",
     "buttonText": "Learn more",
     "buttonLink": "/en/cnc"
   },
   "glass": {
     "title": "Glass Cutting",
     "description": "Precise cutting...",
+    "descriptionLong": "Rozszerzony opis o glass",
     "buttonText": "See offer",
     "buttonLink": "/en/glass"
   },

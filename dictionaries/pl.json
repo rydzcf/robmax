@@ -30,12 +30,14 @@
   "cnc": {
     "title": "Obróbka CNC",
     "description": "Profesjonalne usługi...",
+    "descriptionLong": "<p>Nasze możliwości produkcyjne opierają się na parku maszynowym składającym się z czterech frezarek CNC renomowanej marki Mazak — trzech trzyosiowych oraz jednej pięcioosiowej. Pozwalają one na precyzyjną obróbkę szerokiego zakresu detali, zapewniając wysoką powtarzalność oraz doskonałą jakość wykończenia.</p><p>Dysponujemy frezarką Mazak VTC 200B o przejazdach X/Y/Z 1120/510/510 mm, wrzecionem o prędkości 10 000 obr./min, stołem o wymiarach 1460 x 510 mm oraz magazynem na 24 narzędzia. Kolejną maszyną jest pięcioosiowa Mazak VARIAXIS 500/5X, która umożliwia kompleksową obróbkę detali dzięki przejazdom 510/510/460 mm, wrzecionu 12 000 obr./min, stołowi 510 x 510 mm oraz magazynowi 30 narzędzi.</p><p>W naszym parku maszynowym znajduje się również Mazak VTC 200C, wyposażona w przejazdy 1660/510/510 mm, wrzeciono 10 000 obr./min, stół o wymiarach 2000 x 510 mm oraz 30-pozycyjny magazyn narzędzi. Największą maszyną jest Mazak VTC-300C-II, oferująca przejazdy 1740/760/660 mm, wrzeciono 12 000 obr./min, stół 2000 x 760 mm oraz magazyn 30 narzędzi.</p><p>Tak rozbudowany i zróżnicowany park maszynowy pozwala nam realizować zarówno standardowe, jak i najbardziej wymagające projekty obróbcze, gwarantując najwyższą jakość i precyzję wykonania.</p>",
     "buttonText": "Dowiedz się więcej",
     "buttonLink": "/pl/cnc"
   },
   "glass": {
     "title": "Szyby do busów i maszyn rolniczych",
     "description": "Precyzyjne cięcie...",
+    "descriptionLong": "Rozszerzony opis o glass",
     "buttonText": "Zobacz ofertę",
     "buttonLink": "/pl/glass"
   },

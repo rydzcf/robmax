@@ -85,9 +85,9 @@ export default function Card({
 
       {/* Content */}
       <div className="p-6 flex flex-col flex-grow">
-        <h3 className="text-2xl font-bold text-[var(--foreground)] mb-3">
+        <h4 className="font-bold text-[var(--foreground)] mb-3">
           {title}
-        </h3>
+        </h4>
         <p className="text-[var(--foreground)]/80 mb-6 leading-relaxed flex-grow">
           {description}
         </p>

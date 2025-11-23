@@ -70,9 +70,9 @@ export default function CardList({data, lang} : {data : Mask[], lang: string}) {
 
           {/* Content */}
           <div className="p-6 flex flex-col ">
-            <h3 className="text-2xl font-bold text-[var(--foreground)] mb-2">
+            <h4 className="font-bold text-[var(--foreground)] mb-2">
               ID: {item.id}
-            </h3>
+            </h4>
 
             {item.typ && (
               <p className="text-[var(--foreground)]/90 mb-4 font-medium">
@@ -98,9 +98,9 @@ export default function CardList({data, lang} : {data : Mask[], lang: string}) {
             {/* Modele */}
             {item.modele && item.modele.length > 0 && (
               <div className="mt-auto">
-                <h4 className="text-lg font-semibold text-[var(--foreground)] mb-2">
+                <h6 className="text-lg font-semibold text-[var(--foreground)] mb-2">
                   {`${dict.mask.pasuje_do}: `}
-                </h4>
+                </h6>
                 <ul className="list-disc list-inside text-[var(--foreground)]/80 space-y-1">
                   {item.modele.map((model) => (
                     <li key={model} className='marker:text-[var(--accent)]'>{model}</li>

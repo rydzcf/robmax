@@ -110,9 +110,9 @@ export default function ContentImage({
             </motion.h2>
             
             <motion.div variants={itemVariants}>
-              <p className="text-lg text-[var(--foreground)]/80 mb-8 leading-relaxed whitespace-pre-line">
-                {section.description}
-              </p>
+              
+               <div className="text-lg text-[var(--foreground)]/80 mb-8 leading-relaxed whitespace-pre-line" dangerouslySetInnerHTML={{ __html: section.descriptionLong }} />
+              
             </motion.div>
 
             {section.buttonText && section.buttonLink && button && (

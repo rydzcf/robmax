@@ -38,3 +38,44 @@ html, body {
 * {
   box-sizing: border-box;
 }
+
+p {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+h6 {
+  font-size: 20px;
+  letter-spacing: -0.5%;
+  line-height: 140%;
+}
+
+h5 {
+  font-size: 25px;
+  letter-spacing: -0.5%;
+  line-height: 130%;
+}
+
+h4 {
+  font-size: 27px;
+  letter-spacing: -1%;
+  line-height: 110%;
+}
+
+h3 {
+  font-size: 33px;
+  letter-spacing: -1%;
+  line-height: 110%;
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: -1.5%;
+  line-height: 110%;
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: -2%;
+  line-height: 100%;
+}

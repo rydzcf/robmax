@@ -48,10 +48,12 @@ export default async function Page({
     <div className="absolute top-0 h-1/4 w-full bg-gradient-to-b from-white to-transparent z-10" />
     <HeroSlider slides={Slides}/>
     {/* <Hero lang={lang} /> */}
-    <div className="px-3 pb-32 pt-20 mx-auto max-w-7xl">
+    <p className="px-3 pb-32 pt-20 mx-auto max-w-7xl">
       {dict.aboutus1}
-    </div>
-    <div className='max-w-7xl mx-auto text-3xl font-semibold py-4'>{dict.aboutus2}</div>
+    </p>
+    <h1 className='max-w-7xl mx-auto text-3xl font-semibold py-4'>
+      {dict.aboutus2}
+      </h1>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-7xl pt-20 pb-32 px-3">
   <Card
     title={dict.aboutuspoint[1]}
@@ -92,7 +94,7 @@ export default async function Page({
           imageAlt='foto cnc'
           />  
         
-      <div className="text-3xl font-semibold py-4">{dict.whyus}</div>
+      <h1 className="font-semibold py-4">{dict.whyus}</h1>
       {Object.values(dict.aboutuspoint).map((item, index) => (
   <div key={index} className='flex items-center gap-2 mb-2'>
     <Image src="/b.svg" width={12} height={12} alt="point"/>
