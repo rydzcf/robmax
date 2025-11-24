@@ -1,4 +1,4 @@
-name: Deploy to serwer3333502
+name: Deploy to serwer333502
 
 on:
   push:
@@ -16,20 +16,20 @@ jobs:
     - name: Install dependencies and build
       run: |
         npm install
-        npm run build  # Pliki wynikowe trafiają do katalogu 'dist'
+        npm run build  # Pliki wynikowe trafiają do katalogu 'out'
 
     - name: Set up SSH
       run: |
         mkdir -p ~/.ssh
-        echo "${{ secrets.SERWER3333502_AUTO_DEPLOY }}" > ~/.ssh/id_rsa
+        echo "${{ secrets.SERWER333502_AUTO_DEPLOY }}" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
 
-    - name: Deploy static files to serwer3333502
+    - name: Deploy static files to serwer333502
       run: |
         APP_NAME="robmax.pl"
         DEPLOY_DIR="~/public_html/$APP_NAME"
 
-        ssh -o StrictHostKeyChecking=no -p 40022 serwer3333502@185.135.91.50 << EOF
+        ssh -o StrictHostKeyChecking=no -p 40022 serwer333502@185.135.91.50 << EOF
           DEPLOY_DIR="~/public_html/${APP_NAME}"
 
           # Usunięcie całego katalogu i utworzenie go na nowo
@@ -38,4 +38,4 @@ jobs:
         EOF
 
         # Wysłanie plików statycznych z katalogu `out` na serwer
-        scp -P 40022 -r out/* serwer3333502@185.135.91.50:$DEPLOY_DIR/
+        scp -P 40022 -r out/* serwer333502@185.135.91.50:$DEPLOY_DIR/
