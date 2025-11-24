@@ -32,14 +32,14 @@
     "description": "Professional services...",
     "descriptionLong": "<p>Our production capabilities are based on a machine park consisting of four CNC milling machines from the renowned Mazak brand — three 3-axis models and one 5-axis model. They allow precise machining of a wide range of components, ensuring high repeatability and excellent finish quality.</p><p>We operate a Mazak VTC 200B with X/Y/Z travels of 1120/510/510 mm, a 10,000 rpm spindle, a 1460 x 510 mm table, and a 24-tool magazine. Another machine is the 5-axis Mazak VARIAXIS 500/5X, enabling complex part machining thanks to 510/510/460 mm travels, a 12,000 rpm spindle, a 510 x 510 mm table, and a 30-tool magazine.</p><p>Our machine park also includes the Mazak VTC 200C, equipped with 1660/510/510 mm travels, a 10,000 rpm spindle, a 2000 x 510 mm table, and a 30-position tool magazine. The largest machine is the Mazak VTC-300C-II, offering 1740/760/660 mm travels, a 12,000 rpm spindle, a 2000 x 760 mm table, and a 30-tool magazine.</p><p>Such an extensive and diverse machine park allows us to complete both standard and highly demanding machining projects, guaranteeing top quality and precision.</p>",
     "buttonText": "Learn more",
-    "buttonLink": "/pl/cnc"
+    "buttonLink": "/en/cnc"
   },
   "glass": {
     "title": "Windows for vans and agricultural machines",
     "description": "Precise cutting...",
     "descriptionLong": "<p>bent glass</p><p>insulated glass</p><p>non-tempered bent glass</p><p>tempered bent glass</p><p>Possibility to create custom projects upon customer request. If you have any questions, please contact us by phone or email.</p>",
     "buttonText": "See offer",
-    "buttonLink": "/pl/glass"
+    "buttonLink": "/en/glass"
   },
   "aboutus1": "Robmax is a company with many years of tradition – we have been operating on the market since 2005. The experience gained over the years has allowed us to specialize in glass and metal processing, as well as build a strong position in the industry thanks to quality, timeliness and an individual approach to each client.",
   "aboutus2": "What do we do?",
