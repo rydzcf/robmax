@@ -1,0 +1,41 @@
+name: Deploy to serwer3333502
+
+on:
+  push:
+    branches:
+      - main  # Workflow uruchamia się przy pushu na gałąź `main`
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Install dependencies and build
+      run: |
+        npm install
+        npm run build  # Pliki wynikowe trafiają do katalogu 'dist'
+
+    - name: Set up SSH
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.SERWER3333502_AUTO_DEPLOY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+
+    - name: Deploy static files to serwer3333502
+      run: |
+        APP_NAME="robmax.pl"
+        DEPLOY_DIR="~/public_html/$APP_NAME"
+
+        ssh -o StrictHostKeyChecking=no -p 40022 serwer3333502@185.135.91.50 << EOF
+          DEPLOY_DIR="~/public_html/${APP_NAME}"
+
+          # Usunięcie całego katalogu i utworzenie go na nowo
+          rm -rf "$DEPLOY_DIR"
+          mkdir -p "$DEPLOY_DIR"
+        EOF
+
+        # Wysłanie plików statycznych z katalogu `out` na serwer
+        scp -P 40022 -r out/* serwer3333502@185.135.91.50:$DEPLOY_DIR/

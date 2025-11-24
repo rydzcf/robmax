@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "modele": ["Fiat Ducato", "Citroen Jumper", "Peugeot Boxer", "Opel Movano", "Renault Master", "inne"],
+    "h": "15 mm",
+    "w": "98 mm",
+    "w_elem": "80 mm",
+    "fi": "20 mm x 25 mm",
+    "typ": "uniwersalna ścięta",
+    "image": "/mask/01.png"
+  },
+  {
+    "id": 2,
+    "modele": ["Mercedes Sprinter", "inne"],
+    "h": "15 mm",
+    "w": "98 mm x 88 mm",
+    "w_elem": "80 mm x 67 mm",
+    "fi": "20 mm x 25 mm",
+    "image": "/mask/02.png"
+  },
+  {
+    "id": 3,
+    "modele": ["Crafter", "MAN"],
+    "h": "30 mm",
+    "w": "133 mm x 82 mm",
+    "w_elem": "115 mm x 60 mm",
+    "fi": "15 mm",
+    "image": "/mask/03.png"
+  },
+  {
+    "id": 4,
+    "modele": ["Volkswagen", "inne"],
+    "h": "15 mm",
+    "w": "100 mm",
+    "w_elem": "85 mm",
+    "fi": "19 mm x 14 mm",
+    "image": "/mask/04.png"
+  },
+  {
+    "id": 5,
+    "modele": ["Fiat Ducato", "Citroen Jumper", "Peugeot Boxer", "Opel Movano", "Renault Master"],
+    "h": "15 mm",
+    "w": "98 mm",
+    "w_elem": "80 mm",
+    "fi": "30 mm x 12 mm",
+    "image": "/mask/05.png"
+  },
+  {
+    "id": 6,
+    "modele": ["Volkswagen", "inne"],
+    "h": "15 mm",
+    "w": "100 mm",
+    "w_elem": "85 mm",
+    "fi": "15 mm x 10 mm",
+    "image": "/mask/06.png"
+  },
+  {
+    "id": 7,
+    "modele": ["Volkswagen", "inne"],
+    "h": "15 mm",
+    "w": "100 mm",
+    "w_elem": "85 mm",
+    "fi": "20 mm x 15 mm",
+    "image": "/mask/07.png"
+  },
+  {
+    "id": 8,
+    "modele": ["Volkswagen", "inne"],
+    "h": "15 mm",
+    "w": "100 mm",
+    "w_elem": "85 mm",
+    "fi": "38 mm x 12 mm",
+    "image": "/mask/08.jpg"
+  },
+  {
+    "id": 9,
+    "modele": ["Renault Master od 2024"],
+    "h": "21 mm",
+    "w": "115 mm",
+    "w_elem": "100 mm",
+    "fi": "20 mm x 25 mm",
+    "image": "/mask/09.png"
+  }
+]

@@ -60,7 +60,7 @@ export default async function Page({
     description={dict.aboutuspoint['1.1']}
     imageSrc="/hero3.jpeg"
     imageAlt="CNC"
-    link="/pl/mask"
+    link={`/${lang}/mask`}
     buttonText="Dowiedz się więcej"
     index={0}
   />
@@ -69,7 +69,7 @@ export default async function Page({
     description={dict.aboutuspoint['2.1']}
     imageSrc="/hero1.jpeg"
     imageAlt="cnc"
-    link="/pl/cnc"
+     link={`/${lang}/cnc`}
     buttonText="Zobacz ofertę"
     index={1}
   />
@@ -78,7 +78,7 @@ export default async function Page({
     description={dict.aboutuspoint['3.1']}
     imageSrc="/hero2.jpeg"
     imageAlt="glass"
-    link="/pl/glass"
+    link={`/${lang}/glass`}
     buttonText="Zobacz ofertę"
     index={2}
   />
