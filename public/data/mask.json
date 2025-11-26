@@ -6,7 +6,6 @@
     "w": "98 mm",
     "w_elem": "80 mm",
     "fi": "20 mm x 25 mm",
-    "typ": "uniwersalna ścięta",
     "image": "/mask/01.png"
   },
   {
@@ -16,7 +15,7 @@
     "w": "98 mm x 88 mm",
     "w_elem": "80 mm x 67 mm",
     "fi": "20 mm x 25 mm",
-    "image": "/mask/02.png"
+    "image": "/mask/02.jpg"
   },
   {
     "id": 3,
@@ -70,7 +69,7 @@
     "w": "100 mm",
     "w_elem": "85 mm",
     "fi": "38 mm x 12 mm",
-    "image": "/mask/08.jpg"
+    "image": "/mask/08.png"
   },
   {
     "id": 9,

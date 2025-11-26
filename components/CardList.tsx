@@ -52,7 +52,7 @@ export default function CardList({data, lang} : {data : Mask[], lang: string}) {
           className="bg-[var(--background)] rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 flex flex-col h-full"
         >
           {/* Image */}
-          <div className="relative h-64 overflow-hidden">
+          <div className="relative h-64 overflow-hidden bg-white">
             <motion.div
               variants={imageVariants}
               whileHover="hover"
