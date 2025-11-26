@@ -101,7 +101,7 @@ export default function Card({
           >
             <Link
               href={link}
-              className="inline-block px-6 py-3 bg-[var(--accent)] text-[var(--foreground)] font-bold rounded-full hover:shadow-lg transition-shadow duration-300 text-center"
+              className="inline-block mt-3 px-6 py-3 bg-[var(--accent)] text-[var(--foreground)] font-bold rounded-full hover:shadow-lg transition-shadow duration-300 text-center"
             >
               {buttonText}
             </Link>

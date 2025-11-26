@@ -1,9 +1,10 @@
 {
+  "more": "more",
   "menu": {
     "home" : "About us",
     "cnc" : "CNC services",
     "glass" : "Glass",
-    "mask" : "Cover plates",
+    "mask" : "Fixing plate",
     "contact" : "Contact"
   },
   "footer": {
@@ -18,7 +19,7 @@
     "title": "Robmax",
     "subtitle": "CNC processing",
     "title2": "Robmax",
-    "subtitle2": "Cover plates for delivery vehicle floors",
+    "subtitle2": "Fixing plate for delivery vehicle floors",
     "title3": "Robmax",
     "subtitle3": "Custom-made windows"
   },
@@ -41,11 +42,11 @@
     "buttonText": "See offer",
     "buttonLink": "/en/glass"
   },
-  "aboutus1": "Robmax is a company with many years of tradition – we have been operating on the market since 2005. The experience gained over the years has allowed us to specialize in glass and metal processing, as well as build a strong position in the industry thanks to quality, timeliness and an individual approach to each client.",
+  "aboutus1": "Robmax is a company with a long-standing tradition – we have been operating on the market since 2005. Over the years, we have gained extensive experience that has allowed us to specialize in glass and metal processing, as well as to build a strong position in the industry due to our quality, timeliness and individual approach to every client.",
   "aboutus2": "What do we do?",
   "aboutuspoint": {
-    "1": "Cover plates",
-    "1.1": "Cover plates for delivery vehicle floors",
+    "1": "Fixing plate",
+    "1.1": "Fixing plate for delivery vehicle floors",
     "2" : "CNC Processing",
     "2.1": "Steel machining on CNC machines",
     "3" : "Glass",

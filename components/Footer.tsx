@@ -78,10 +78,10 @@ const dict = getDictionary(lang);
               <p>
                 <span className="block mb-1 opacity-70">{dict.footer.phone}:</span>
                 <a
-                  href="tel:+48781555777"
+                  href="tel:+48515550535"
                   className="hover:text-[var(--background)] transition-colors duration-200"
                 >
-                  781 555 777
+                  +48 515 550 535
                 </a>
               </p>
               <p>
@@ -95,7 +95,7 @@ const dict = getDictionary(lang);
               </p>
               <div className="pt-2">
                 <a
-                  href="https://facebook.com"
+                  href="https://facebook.com/wsrobmax"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center space-x-2 hover:text-[var(--background)] transition-colors duration-200"

@@ -61,7 +61,7 @@ export default async function Page({
     imageSrc="/hero3.jpeg"
     imageAlt="CNC"
     link={`/${lang}/mask`}
-    buttonText="Dowiedz się więcej"
+    buttonText={dict.more}
     index={0}
   />
   <Card
@@ -70,7 +70,7 @@ export default async function Page({
     imageSrc="/hero1.jpeg"
     imageAlt="cnc"
      link={`/${lang}/cnc`}
-    buttonText="Zobacz ofertę"
+    buttonText={dict.more}
     index={1}
   />
   <Card
@@ -79,7 +79,7 @@ export default async function Page({
     imageSrc="/hero2.jpeg"
     imageAlt="glass"
     link={`/${lang}/glass`}
-    buttonText="Zobacz ofertę"
+    buttonText={dict.more}
     index={2}
   />
 </div>
