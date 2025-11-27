@@ -95,7 +95,7 @@ const dict = getDictionary(lang);
               </p>
               <div className="pt-2">
                 <a
-                  href="https://facebook.com/wsrobmax"
+                  href="https://facebook.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center space-x-2 hover:text-[var(--background)] transition-colors duration-200"

@@ -78,7 +78,7 @@ export default function CTA({ lang }: CTAProps) {
         >
           {/* Phone Button */}
           <motion.a
-            href="tel:+48781555777"
+            href="tel:+48515550535"
             variants={buttonVariants}
             whileHover="hover"
             whileTap="tap"
@@ -98,7 +98,7 @@ export default function CTA({ lang }: CTAProps) {
                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
               />
             </svg>
-            <span>781 555 777</span>
+            <span>515 550 535</span>
           </motion.a>
 
           {/* Email Button */}
